@@ -14,12 +14,12 @@ homepage = "http://github.com/cgwalters/openat-ext"
 documentation = "http://docs.rs/openat-ext"
 
 [dependencies]
-drop_bomb = "0.1.5"
-openat = "0.1.15"
-libc = "0.2.34"
-nix = "0.18"
-rand = "0.7.3"
+drop_bomb = ">= 0.1.5, < 0.2"
+openat = ">= 0.1.15, < 0.2"
+libc = ">= 0.2.34, < 0.3"
+nix = ">= 0.18, < 0.19"
+rand = ">= 0.7.3, < 0.8"
 
 [dev-dependencies]
-anyhow = "1.0.33"
-tempfile = "3.0.3"
+anyhow = ">= 1.0.33, < 2"
+tempfile = ">= 3.0.3, < 4"
